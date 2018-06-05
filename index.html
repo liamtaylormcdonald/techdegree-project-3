@@ -31,13 +31,13 @@
             <input type="email" name="email" placeholder="Required" required>
 
             <label for="phone">Phone Number</label>
-            <input type="tel" name="phone">
+            <input type="text" name="phone">
 
             <label for="address">Street Address</label>
             <input type="text" name="address">
 
             <label for="city">City</label>
-            <input type="city" name="city">
+            <input type="text" name="city">
 
             <label for="state">State</label>
             <select class="state" name="state">
@@ -91,7 +91,7 @@
               <option value="wa">Washington</option>
               <option value="wv">West Virginia</option>
               <option value="wi">Wisconsin</option>
-              <option value="wy">Wyoming</option>    
+              <option value="wy">Wyoming</option>
             </select>
 
             <label for="zip">Zip Code</label>
@@ -101,16 +101,21 @@
           <fieldset class="newsletter">
             <h2 class="form-header">Newsletter</h2>
 
-            <label for="newsletter">Select the newsletters you would like to recieve</label>
-
-            <input type="checkbox" id="html_news" name="newsletter" value="html_news">
-            <label for="html_news">HTML News</label>
-
-            <input type="checkbox" id="css_news" name="newsletter" value="css_news">
-            <label for="css_news">CSS News</label>
-
-            <input type="checkbox" id="javascript_news" name="newsletter" value="javascript_news">
-            <label for="javascript_news">Javascript News</label>
+            <div class="newsletter-primary">
+              <label for="select">Select the newsletters you would like to recieve</label>
+              <label class="check">HTML News
+                <input type="checkbox" value="html_news">
+                <span class="checkmark"></span>
+              </label>
+              <label class="check">CSS News
+                <input type="checkbox" value="css_news">
+                <span class="checkmark"></span>
+              </label>
+              <label class="check">Javascript News
+                <input type="checkbox" value="javascript_news">
+                <span class="checkmark"></span>
+              </label>
+            </div>
 
 
             <label for="format">Newsletter Format</label>

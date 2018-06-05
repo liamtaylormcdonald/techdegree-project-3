@@ -4,7 +4,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: Montserrat;
 }
 
@@ -65,6 +64,10 @@ select:focus {
 
 select {
   height: 3em;
+}
+
+input[type=checkbox] {
+  float: left;
 }
 
 ::placeholder {

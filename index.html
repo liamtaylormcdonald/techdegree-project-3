@@ -21,14 +21,14 @@
       <div class="form">
         <form class="main-form" action="index.html" method="post">
 
-          <fieldset>
+          <fieldset class="contact-information">
             <h2 class="form-header">Contact Information</h2>
 
             <label for="full_name">Full Name</label>
-            <input type="text" name="full_name" value="Required">
+            <input type="text" name="full_name" placeholder="Required" required>
 
             <label for="email">Email</label>
-            <input type="email" name="email" value="Required">
+            <input type="email" name="email" placeholder="Required" required>
 
             <label for="phone">Phone Number</label>
             <input type="tel" name="phone">
@@ -45,19 +45,23 @@
             </select>
 
             <label for="zip">Zip Code</label>
-            <input type="text" name="zip">
+            <input class="zip" type="text" name="zip">
           </fieldset>
 
-          <fieldset>
+          <fieldset class="newsletter">
             <h2 class="form-header">Newsletter</h2>
 
             <label for="newsletter">Select the newsletters you would like to recieve</label>
+
             <input type="checkbox" id="html_news" name="newsletter" value="html_news">
             <label for="html_news">HTML News</label>
+
             <input type="checkbox" id="css_news" name="newsletter" value="css_news">
             <label for="css_news">CSS News</label>
+
             <input type="checkbox" id="javascript_news" name="newsletter" value="javascript_news">
             <label for="javascript_news">Javascript News</label>
+
 
             <label for="format">Newsletter Format</label>
             <input type="radio" id="html" name="format" value="html">

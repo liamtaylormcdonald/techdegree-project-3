@@ -44,7 +44,8 @@ fieldset {
   padding: 0;
 }
 
-input,
+input[type=text],
+input[type=email],
 select {
   width: 100%;
   padding: 15px 10px;
@@ -68,6 +69,7 @@ select {
 
 input[type=checkbox] {
   float: left;
+  margin-right: 10px;
 }
 
 ::placeholder {
@@ -107,4 +109,8 @@ input[type=checkbox] {
   padding-bottom: 2em;
   margin-bottom: 1em;
   border-bottom: solid 2px black;
+}
+
+.newsletter-primary {
+  margin-bottom: 30px;
 }

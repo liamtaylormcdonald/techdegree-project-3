@@ -4,6 +4,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
 }
 
 header {
@@ -34,12 +36,29 @@ p {
 
 label {
   display: block;
+  margin: 10px 0 0px 0;
 }
 
 fieldset {
   border: none;
   margin: 0;
   padding: 0;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 15px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.05);
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+select {
+  height: 3em;
 }
 
 /* Class Styles */

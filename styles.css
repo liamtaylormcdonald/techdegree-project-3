@@ -58,6 +58,10 @@ textarea {
   font-size: 1em;
 }
 
+input[class="zip"] {
+  width: 50%;
+}
+
 input:focus,
 select:focus,
 textarea:focus {
@@ -127,10 +131,6 @@ footer {
   text-align: left;
 }
 
-.zip {
-  width: 50%;
-}
-
 .contact-information {
   padding-bottom: 2em;
   margin-bottom: 1em;
@@ -142,6 +142,32 @@ footer {
   margin-bottom: 30px;
 }
 
+.radio {
+  margin-top: 10px;
+}
+
 .newsletter {
   padding-bottom: 20px;
+}
+
+@media (min-width: 796px) {
+
+  .main-content {
+    max-width: 800px;
+  }
+
+  .input {
+    display: flex;
+    padding: .5em;
+  }
+
+  label[class=top] {
+    min-width: 150px;
+    padding-top: 10px;
+  }
+
+  input[class="zip"] {
+    width: 25%;
+  }
+
 }

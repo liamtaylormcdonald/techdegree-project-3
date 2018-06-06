@@ -117,12 +117,17 @@
               </label>
             </div>
 
-
-            <label for="format">Newsletter Format</label>
-            <input type="radio" id="html" name="format" value="html">
-            <label for="html">HTML</label>
-            <input type="radio" id="plain_text" name="format" value="plain_text">
-            <label for="plain_text">Plain Text</label>
+            <div class="newsletter-secondary">
+              <label for="select">Select the format you would like to receive</label>
+              <label class="radio">HTML
+                <input type="radio" value="html">
+                <span class="checkmark"></span>
+              </label>
+              <label class="radio">Plain Text
+                <input type="radio" value="plain_text">
+                <span class="checkmark"></span>
+              </label>
+            </div>
 
             <label for="other_topics">Other topics you'd like to hear about</label>
             <textarea name="other_topics"></textarea>

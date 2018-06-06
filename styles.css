@@ -90,6 +90,14 @@ button {
   border: none;
 }
 
+footer {
+  padding: 30px;
+  text-align: center;
+  font-size: .8em;
+  font-style: italic;
+  color: grey;
+}
+
 ::placeholder {
   text-align: right;
   font-size: .8em;
